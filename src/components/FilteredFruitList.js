@@ -10,6 +10,9 @@ const FilteredFruitList = ({filter, fruit}) => {
     );
   }
 
- 
+  FilteredFruitList.defaultProps = {
+    filter: [], 
+    fruit: []
+  };
 
 export default FilteredFruitList;
